@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(./img/6sided_dice_\(cropped\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+main {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 100vh;
+}
+main #cont{
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    width: 40%;
+    border-radius: 5px;
+    padding: 1rem;
+}
+#cont #roll{
+   display: flex;
+  
+}
+#cont #roll #pscore{
+
+    margin-left: 2rem;
+}
+#cont #roll #cscore{
+    margin-left: 20rem;
+}
+#cont #roll p {
+
+   font-size: 1.5rem;
+
+}
+#cont h1{
+    text-align: center;
+}
+#cont #pname{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem;
+}
+#pname #pn{
+    margin-left: 2.5rem;
+}
+#pname h2{
+    padding: 1rem;
+    margin: 0%;
+}
+#pname #v{
+    margin-left: 2.3rem;
+}
+#cont #number{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+#cont #Start{
+    width: 30%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none; 
+    background-color:brown;
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 13rem;
+   
+}
+#cont #Start:active{
+    background-color: rgb(172, 73, 73);
+}
+#cont #number p{
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0;
+  
+}
+#cont #number #pnum{
+    margin-left: 4rem;
+}
+#cont #number #cnum{
+    margin-right: 3rem;
+}
+#cont #res{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+#cont span{
+    color: blue;
+}
